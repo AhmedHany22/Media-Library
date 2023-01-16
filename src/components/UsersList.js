@@ -1,14 +1,13 @@
-import { useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { fetchUsers, addUser } from '../store';
-import Button from './Button';
-import Skeleton from './Skeleton';
-import { useThunk } from '../hooks/use-thunk';
-import UsersListItem from './UsersListItem';
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { fetchUsers, addUser } from "../store";
+import Button from "./Button";
+import Skeleton from "./Skeleton";
+import { useThunk } from "../hooks/useThunk";
+import UsersListItem from "./UsersListItem";
 
 function UsersList() {
-  const [doFetchUsers, isLoadingUsers, loadingUsersError] =
-    useThunk(fetchUsers);
+  const [doFetchUsers, isLoadingUsers, loadingUsersError] = useThunk(fetchUsers);
   const [doCreateUser, isCreatingUser, creatingUserError] = useThunk(addUser);
   const { data } = useSelector((state) => {
     return state.users;
@@ -40,7 +39,7 @@ function UsersList() {
         <Button loading={isCreatingUser} onClick={handleUserAdd}>
           + Add User
         </Button>
-        {creatingUserError && 'Error creating user...'}
+        {creatingUserError && "Error creating user..."}
       </div>
       {content}
     </div>
