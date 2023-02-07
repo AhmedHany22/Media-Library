@@ -41,6 +41,68 @@
       "id": 10
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Oriental Concrete Fish",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Fresh Keyboard",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Soft Soap",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Plastic Hat",
+      "id": 4
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=42541",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=75542",
+      "id": 2
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=31510",
+      "id": 3
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=51051",
+      "id": 4
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=84981",
+      "id": 5
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=16847",
+      "id": 6
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=83096",
+      "id": 7
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=15626",
+      "id": 8
+    }
+  ]
 }
